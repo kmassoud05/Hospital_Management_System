@@ -5,7 +5,7 @@ Desktop hospital management software built with Java Swing, MySQL, and Maven. Pr
 ![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.9%2B-C71A36?logo=apachemaven&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql&logoColor=white)
-![License](https://img.shields.io/badge/license-not%20specified-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
 
@@ -160,5 +160,7 @@ The project builds and tests successfully with Java 25. The application still re
 
 ## License
 
-No license has been specified yet. Add a license before accepting external contributions or redistributing the project.
+This project is licensed under the [MIT License](LICENSE).
+
+Third-party dependencies retain their respective licenses. See the dependency projects for their licensing terms.
 
