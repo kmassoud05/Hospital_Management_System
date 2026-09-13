@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Hospital Management System",
+            "request": "launch",
+            "projectName": "Hospital_Management_System",
+            "mainClass": "hospital_management_system.Hospital_Management_System"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+# Maven build output
+target/
+
+# NetBeans generated output
+build/
+dist/
+nbproject/private/
+
+# Compiled Java files
+*.class
+
+# Local environment and secret configuration
+.env
+.env.*
+*.local.properties
+
+# IDE metadata
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db

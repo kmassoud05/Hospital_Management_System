@@ -1,0 +1,11 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Users\\kmass\\.jdk\\jdk-25.0.2",
+            "default": true
+        }
+    ],
+    "maven.executable.path": "C:\\Users\\kmass\\.maven\\maven-3.9.16\\bin\\mvn.cmd"
+}
