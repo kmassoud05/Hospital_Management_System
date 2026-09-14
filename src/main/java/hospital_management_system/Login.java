@@ -349,6 +349,7 @@ public class Login extends JFrame {
                     DatabaseSetup.insertSampleDoctors();
                     try {
                         DatabaseOperations.createPatientsTable();
+                        DatabaseSetup.insertSamplePatients();
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }
