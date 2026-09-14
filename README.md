@@ -41,32 +41,10 @@ Install the following before running the application:
 - Maven 3.9 or newer
 - MySQL Server 8.0 or newer
 - Git, if cloning the repository
-
-NetBeans is optional. The project can also be opened and run from VS Code or any Java IDE with Maven support.
-
-## Quick Start
-
-### 1. Clone the repository
-
 ```bash
 git clone https://github.com/kmassoud05/Hospital_Management_System.git
-cd Hospital_Management_System
-```
-
-### 2. Create the database
-
-Create a MySQL database named `hospitalmgmt`:
-
 ```sql
 CREATE DATABASE hospitalmgmt;
-```
-
-The application creates its required tables during startup. SQL scripts for the doctors table and sample doctors are available in [`database/`](database/).
-
-### 3. Configure MySQL credentials
-
-Open [`DatabaseConnection.java`](src/main/java/hospital_management_system/DatabaseConnection.java) and set the connection URL, username, and password for your local MySQL installation.
-
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/hospitalmgmt?useSSL=false";
 private static final String USERNAME = "your_mysql_user";
@@ -78,20 +56,8 @@ Do not commit real passwords, production connection strings, or other secrets to
 ### 4. Build the application
 
 ```bash
-mvn clean package
-```
-
-### 5. Run the application
-
-The Maven assembly plugin creates a self-contained JAR:
-
 ```bash
 java -jar target/Hospital_Management_System-1.0-SNAPSHOT-jar-with-dependencies.jar
-```
-
-The application opens the ProCare Clinic login window and initializes the database in the background.
-
-## Running From an IDE
 
 Open the repository root, the folder containing `pom.xml`, in your IDE.
 
