@@ -1,8 +1,28 @@
 package hospital_management_system;
 
-import javax.swing.*;
-import java.awt.*;
-import java.sql.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 
 public class HospitalInformation extends JFrame {
     private static final Color PRIMARY_COLOR = new Color(120, 32, 110);  // #78206E
@@ -42,8 +62,8 @@ public class HospitalInformation extends JFrame {
         setTitle("Hospital Information");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(800, 500);
-        setLocationRelativeTo(null);
-        setResizable(false);
+        setResizable(true);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         // Main panel with white background
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
